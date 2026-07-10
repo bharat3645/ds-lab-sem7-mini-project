@@ -17,28 +17,13 @@
 - **📍 Geographic Analysis** - State and district-level crime patterns
 - **⚡ Performance Optimized** - Caching and efficient data processing
 
-## 🎯 Live Demo
+## 🎯 Running Your Own Instance
 
-🚀 **Deploy to Streamlit Cloud**: [Click here to deploy](https://share.streamlit.io/)
+This project isn't hosted on a public URL -- deploy your own copy to Streamlit Community Cloud by connecting this repository at [share.streamlit.io](https://share.streamlit.io/) (point it at `streamlit_app2.py`, the maintained entry point -- see [Deployment](#-deployment) below), or run it locally with the Quick Start steps below.
 
 ## 📸 Screenshots
 
-### Dashboard Overview
-![Dashboard Overview](https://raw.githubusercontent.com/bharat3645/DS-LAB_Sem7-Mini-Project/main/screenshots/dashboard.png)
-
-*Interactive dashboard showing crime statistics and visualizations*
-
-### Analytics Page
-![Analytics](https://raw.githubusercontent.com/bharat3645/DS-LAB_Sem7-Mini-Project/main/screenshots/analytics.png)
-
-*Advanced data analysis with filtering and exploration tools*
-
-### Machine Learning Models
-![ML Models](https://raw.githubusercontent.com/bharat3645/DS-LAB_Sem7-Mini-Project/main/screenshots/ml-models.png)
-
-*Machine learning model performance and predictions*
-
-> **Note**: Screenshots will be added once you run the application and capture them.
+Not yet included in this repo. See [`screenshots/README.md`](screenshots/README.md) for the exact filenames/specs expected (`dashboard.png`, `analytics.png`, `ml-models.png`) if you'd like to add them after running the app locally.
 
 ## 📊 Project Overview
 
@@ -136,8 +121,8 @@
 ```
 crime-analytics-project/
 │
-├── streamlit_app.py              # Main advanced dashboard
-├── streamlit_app2.py             # Simplified dashboard
+├── streamlit_app2.py             # Maintained entry point (see Quick Start) -- run this one
+├── streamlit_app.py              # Earlier/extended dashboard variant, not the primary entry point
 ├── data_preprocessing.py         # Data cleaning and feature engineering
 ├── ml_models.py                  # Machine learning implementations
 ├── deep_learning.py              # Deep learning models
