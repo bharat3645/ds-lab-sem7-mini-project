@@ -291,7 +291,7 @@ Congratulations! Your Crime Analytics Dashboard is now live.
 ---
 
 **Need Help?**
-- Check [deploy_guide.md](deploy_guide.md) for detailed instructions
+- Check [QUICK_DEPLOY.md](QUICK_DEPLOY.md) for detailed instructions
 - Visit [Streamlit Docs](https://docs.streamlit.io)
 - Open an issue on GitHub
 - Contact the development team

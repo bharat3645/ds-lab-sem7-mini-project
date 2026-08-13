@@ -122,7 +122,6 @@ Not yet included in this repo. See [`screenshots/README.md`](screenshots/README.
 crime-analytics-project/
 │
 ├── streamlit_app2.py             # Maintained entry point (see Quick Start) -- run this one
-├── streamlit_app.py              # Earlier/extended dashboard variant, not the primary entry point
 ├── data_preprocessing.py         # Data cleaning and feature engineering
 ├── ml_models.py                  # Machine learning implementations
 ├── deep_learning.py              # Deep learning models
@@ -142,7 +141,7 @@ crime-analytics-project/
 │
 ├── Procfile                      # Heroku deployment
 ├── setup.sh                      # Streamlit Cloud setup
-├── deploy_guide.md               # Detailed deployment guide
+├── QUICK_DEPLOY.md               # Quick deployment guide
 ├── CONTRIBUTING.md               # Contribution guidelines
 └── DEPLOYMENT.md                 # Deployment checklist
 ```
@@ -327,7 +326,7 @@ pip install --upgrade -r requirements.txt
 - Ensure CSV files are in project root
 - Check file paths in code match your file names
 
-See [deploy_guide.md](deploy_guide.md) for more troubleshooting tips.
+See [DEPLOYMENT.md](DEPLOYMENT.md) or [QUICK_DEPLOY.md](QUICK_DEPLOY.md) for more troubleshooting tips.
 
 ## 📞 Contact
 

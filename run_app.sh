@@ -55,4 +55,4 @@ echo "========================================"
 echo ""
 
 # Run streamlit
-streamlit run streamlit_app.py
+streamlit run streamlit_app2.py

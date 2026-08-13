@@ -67,8 +67,6 @@ If it runs locally, it will run in the cloud! ✅
 
 Check:
 - `DEPLOYMENT.md` - Full checklist
-- `deploy_guide.md` - Detailed guide  
-- `DEPLOYMENT_READY.md` - What was done
 
 ---
 
