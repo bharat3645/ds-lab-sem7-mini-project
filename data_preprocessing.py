@@ -126,8 +126,9 @@ class CrimeDataPreprocessor:
     def get_state_aggregated(self, df, year_col='year', state_col='state_name'):
         """Aggregate data by state and year"""
         numeric_cols = df.select_dtypes(include=[np.number]).columns
-        agg_cols = [col for col in numeric_cols if col not in ['id', 'state_code', 'district_code']]
-        
+        exclude_cols = {'id', 'state_code', 'district_code', year_col, state_col}
+        agg_cols = [col for col in numeric_cols if col not in exclude_cols]
+
         state_agg = df.groupby([year_col, state_col])[agg_cols].sum().reset_index()
         return state_agg
     
